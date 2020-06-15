@@ -1,12 +1,48 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="/build/tailwind.css">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+  </head>
+  <body class="bg-gray-100 flex">
+    <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
+      <div class="xl:ml-auto xl:max-w-lg" >
+        <img class="h-10" src="img/logo.svg" alt="logo" />
+        <img
+          class="lg:hidden mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center"
+          src="img/beach-work.jpg"
+          alt="Beach work"
+        />
+        <h1
+          class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
+        >
+          This is my super awesome title
+          <br/>
+          <span class="text-indigo-500">Bamboo sticks for all</span>
+        </h1>
+        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum
+          iusto similique libero praesentium eligendi? Tempora doloribus ut amet
+          nostrum reprehenderit recusandae eligendi voluptatem natus, doloremque
+          dolor quasi nemo porro.
+        </p>
+        <div class="mt-4 sm:mt-6">
+          <button
+            class="bg-indigo-500 px-5 py-3 text-white rounded-lg shadow-lg uppercase tracking-wider font-semibold sm:text-base"
+          >
+            Book with us
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden lg:block lg:w-1/2 relative">
+      <img
+        class="absolute inset-0 h-full w-full object-cover object-center"
+        src="img/beach-work.jpg"
+        alt="Beach work"
+      />
+    </div>
+  </body>
 </html>
